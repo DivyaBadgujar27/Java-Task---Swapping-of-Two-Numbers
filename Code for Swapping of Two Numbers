@@ -1,0 +1,29 @@
+import java.util.Scanner;
+
+class Swap
+{
+	public static void main(String args [])
+	{
+		int fno,sno,temp;
+		Scanner sc = new Scanner(System.in);
+		System.out.print("For Swapping of Two Numbers");
+		System.out.print("\n\nEnter First Number = ");
+		fno = sc.nextInt();
+		System.out.print("\nEnter Second Number = ");
+		sno = sc.nextInt();
+
+		System.out.print("\n\nBefore Swapping");
+		System.out.print("\nFirst Number = " + fno );
+		System.out.print("\nSecond Number = " + sno );
+
+		temp = fno;
+		fno = sno;
+		sno = temp;
+
+		System.out.print("\n\n\nAfter Swapping");
+		System.out.print("\nFirst Number = " + fno );
+		System.out.print("\nSecond Number = " + sno );
+		System.out.print("\n\n");
+
+	}
+}
